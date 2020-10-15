@@ -25,6 +25,7 @@ public class HelloServiceImpl implements HelloService {
      */
     @Override
     public String sayHello(String name) {
+
         System.out.println("dubbo服务调用：" + name);
         return "早上好啊~" + name;
     }
